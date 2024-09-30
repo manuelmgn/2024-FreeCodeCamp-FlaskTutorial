@@ -1,5 +1,9 @@
-.DS*
+.*
 
 *.rsls
 *.rslsc
 *.workspace
+
+arquivoTemporario
+
+config/*

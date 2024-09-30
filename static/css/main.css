@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(238, 255, 250);
+}
+
+table {
+    width: 90%;
+    text-align: center;
+}
+
+tr {
+    margin: 2px;
+}
+
+form {
+    margin: 10px 2px;
+}
+
+input[type='text'] {
+    width: 70%;
+}

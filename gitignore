@@ -1,9 +1,0 @@
-.*
-
-*.rsls
-*.rslsc
-*.workspace
-
-arquivoTemporario
-
-config/*
