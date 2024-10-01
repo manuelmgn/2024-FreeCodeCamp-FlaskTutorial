@@ -26,6 +26,14 @@
         {% endfor%}
     </table>
 
+    {% block content %}
+    <form method="POST">
+        {{ form.hidden_tag() }} {{ form.new_content.label }} {{
+        form.new_content() }} {{ form.submit() }}
+    </form>
+    {% endblock %}
+
+    <!--
     <form action="/" method="POST">
         <input
             type="text"
@@ -35,5 +43,6 @@
         />
         <input type="submit" value="Add task" />
     </form>
+    -->
 </div>
 {% endblock %}
