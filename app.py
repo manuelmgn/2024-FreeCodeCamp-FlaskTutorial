@@ -22,8 +22,6 @@ class TodoForm(FlaskForm):
     new_content = StringField('Nova tarefa', validators=[InputRequired('A tarefa non pode estar en branco'), Length(min=1)])
     submit = SubmitField('Enviar')
 
-
-
 @app.route('/', methods=['POST', 'GET'])
 def index():
     form = TodoForm()
